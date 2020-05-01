@@ -40,3 +40,13 @@ git remote add ssh-origin "git@github.com:$username/$repo_name.git"
 git remote -v
 
 git push -u ssh-origin master
+
+==================================
+
+
+git remote remove ssh-origin
+
+
+git remote add ssh-origin "git@github.com:$username/$repo_name.git"
+
+git remote -v
