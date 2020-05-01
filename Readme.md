@@ -31,6 +31,8 @@ git push -u origin master
 
 ===============================================================================
 
+git commit -am "updated readme"
+
 cat .git/config
 
 git remote add ssh-origin "git@github.com:deepakdubey123/mynewrepo2.git"
