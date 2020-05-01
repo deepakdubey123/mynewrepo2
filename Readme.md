@@ -28,3 +28,13 @@ git commit -m "local commit"
 git config --local credential.helper ""
 
 git push -u origin master
+
+===============================================================================
+
+cat .git/config
+
+git remote add ssh-origin "git@github.com:deepakdubey123/mynewrepo2.git"
+
+git remote -v
+
+git push -u ssh-origin master
