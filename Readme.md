@@ -35,7 +35,7 @@ git commit -am "updated readme"
 
 cat .git/config
 
-git remote add ssh-origin "git@github.com:deepakdubey123/mynewrepo2.git"
+git remote add ssh-origin "git@github.com:$username/$repo_name.git"
 
 git remote -v
 
